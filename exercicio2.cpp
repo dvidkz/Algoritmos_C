@@ -10,7 +10,7 @@ int main () {
 		printf ("Escolha uma moeda:\n");
 		printf ("1 - R$ 0,50\n");
 		printf ("2 - R$ 1,00\n");
-		printf ("3 - R$ 3,00\n");
+		printf ("3 - R$ 2,00\n");
 		
 		scanf ("%d", &opcao);
 		
@@ -25,7 +25,7 @@ int main () {
 		}
 		else {
 			moeda = 3.00;
-			printf ("Voce adicionou R$ 3,00\n");
+			printf ("Voce adicionou R$ 2,00\n");
 		}
 		
 		total = total + moeda;
